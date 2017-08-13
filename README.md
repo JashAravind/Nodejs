@@ -10,4 +10,10 @@ External Dependencies
 4. babel-register - Helps to have different configuration to Run, debug, inspect with break point
 5. istanbul - Coverage report
 
+Folder Structure
+BusinessRulesValidation  - Functions to pass the control to validation method based on Json Key.
+test - contains test file which is driven through Mocha
+TestData - Holds various test data to test Textparser functions
+Utility - Textparser function to convert lines in text file to Json object
+
 Please use npm test after installing necessary dependencies
