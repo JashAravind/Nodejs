@@ -1,0 +1,4 @@
+txid,clientid,txnamount,product,datetime
+abc,C1,100,a,01/05/2017 23:11
+12abc,C2,109,b,02/05/2017 13:11
+£123,C2,109,b,02/05/2017 13:11

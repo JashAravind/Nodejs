@@ -1,0 +1,36 @@
+{
+  "name": "aravind",
+  "version": "1.0.0",
+  "description": "practise",
+  "main": "Index.js",
+  "scripts": {
+    "test": "nyc mocha --compilers babel-register",
+    "test:repl": "mocha debug --compilers babel-register",
+    "test:debug": "mocha --inspect --debug-brk --compilers babel-register"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-plugin-istanbul": "^4.1.4",
+    "babel-preset-latest": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "csvtojson": "^1.1.7",
+    "mocha": "^3.5.0",
+    "nyc": "^11.1.0",
+    "split": "^1.0.1",
+    "text2json": "^2.2.3",
+    "underscore": "^1.8.3"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ],
+    "env": {
+      "test": {
+        "plugins": [
+          "istanbul"
+        ]
+      }
+    }
+  }
+}

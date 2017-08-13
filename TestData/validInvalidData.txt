@@ -1,0 +1,3 @@
+txid,clientid,txnamount,product,datetime
+2,,109,b,02/05/2017 13:11
+ara,,109,b,02/05/2017 13:11

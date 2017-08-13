@@ -1,0 +1,2 @@
+txid,clientid,txnamount,product,datetime
+2,C1,100,a,01/05/2017 23:11
